@@ -25,6 +25,6 @@ classifiers = [
 create-fastapi-app = "fastapi_scaffold.cli:main"
 
 [project.urls]
-"Homepage" = "https://github.com/dumidulakshan/fastapi-scaffold"
-"Bug Reports" = "https://github.com/dumidulakshan/fastapi-scaffold/issues"
-"Source" = "https://github.com/dumidulakshan/fastapi-scaffold"
+"Homepage" = "https://github.com/DumiduLakshan/fastapi-scaffold.git"
+"Bug Reports" = "https://github.com/DumiduLakshan/fastapi-scaffold/issues"
+"Source" = "https://github.com/DumiduLakshan/fastapi-scaffold"
