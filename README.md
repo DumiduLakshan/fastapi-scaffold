@@ -98,34 +98,6 @@ pip3 install git+https://github.com/DumiduLakshan/fastapi-scaffold.git
 create-fastapi-app myproject
 ```
 
-## 📁 Generated Project Structure
-myproject/
-├── app/
-│   ├── core/                 # Configuration, security, database
-│   │   ├── config.py
-│   │   ├── security.py
-│   │   ├── database.py
-│   │   └── dependencies.py
-│   ├── api/
-│   │   └── v1/
-│   │       ├── endpoints/    # Auth, users, products, orders
-│   │       └── api.py
-│   ├── models/              # SQLAlchemy models
-│   ├── schemas/             # Pydantic schemas
-│   ├── services/            # Business logic layer
-│   ├── repositories/        # Data access layer
-│   ├── utils/               # Utilities & helpers
-│   └── workers/             # Background tasks
-├── tests/                   # Comprehensive test suite
-├── migrations/              # Database migrations
-├── scripts/                 # Deployment scripts
-├── requirements/            # Dependency management
-├── static/                  # Static files
-├── Dockerfile
-├── docker-compose.yml
-├── pyproject.toml
-└── README.md
-
 ## 🛠️ Features
 
     ✅ Production-ready structure following best practices
@@ -152,26 +124,24 @@ myproject/
 
     ✅ Cross-platform compatibility (Windows, Linux, macOS)
 
-
 ## 🤝 Contributing
 
 ### We welcome contributions! Please feel free to submit issues, feature requests, or pull requests.
 
-    Fork the repository
+Fork the repository
 
-    Create your feature branch (git checkout -b feature/AmazingFeature)
+Create your feature branch (git checkout -b feature/AmazingFeature)
 
-    Commit your changes (git commit -m 'Add some AmazingFeature')
+Commit your changes (git commit -m 'Add some AmazingFeature')
 
-    Push to the branch (git push origin feature/AmazingFeature)
+Push to the branch (git push origin feature/AmazingFeature)
 
-    Open a Pull Request
-
-
+Open a Pull Request
 
 <div align="center">
 Developed with ❤️ by Dumidu Lakshan
 
 Owner & Maintainer
 FastAPI Scaffold Generator
-</div>>
+
+</div>
